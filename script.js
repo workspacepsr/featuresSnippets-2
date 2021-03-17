@@ -38,8 +38,8 @@ function addNewNote(text = '') {
   })
 
   editBtn.addEventListener('click', () => {
-    main.classList.toogle('hidden')
-    textArea.classList.toogle('hidden')
+    main.classList.toggle('hidden')
+    textArea.classList.toggle('hidden')
   })
 
   textArea.addEventListener('input', (e) => {
